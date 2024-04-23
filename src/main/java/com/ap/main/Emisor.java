@@ -28,8 +28,7 @@ public class Emisor implements Runnable{
      * 
      * @param mensaje mensaje a enviar
      */
-    public Emisor(String mensaje){
-        try {
+    public Emisor(String mensaje){try {
             hostReceptor = InetAddress.getByName(Parametros.getInstance().getIpBroadCastLocal());
             this.mensaje = mensaje;
             this.hilo = new Thread(this);
