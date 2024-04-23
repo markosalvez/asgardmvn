@@ -29,15 +29,15 @@ public class Parametros {
     
     private BufferedImage[] mapaTileset;
     private Locale localizacion = null;
-    private final int ANCHO_PANTALLA_JUEGO = 640;
-    private final int ALTO_PANTALLA_JUEGO = 480;
-    private final int MILISEGUNDOS_ENTRE_FRAMES = 20;
-    private final String rutaTilesetDia = "/img/tileset_dia.png";
-    private final String rutaTilesetNoche = "/img/tileset_noche.png";
-    private final String ipBroadCastLocal = obtenerBroadCastLocal();
+    private static final int ANCHO_PANTALLA_JUEGO = 640;
+    private static final int ALTO_PANTALLA_JUEGO = 480;
+    private static final int MILISEGUNDOS_ENTRE_FRAMES = 20;
+    private static final String rutaTilesetDia = "/img/tileset_dia.png";
+    private static final String rutaTilesetNoche = "/img/tileset_noche.png";
+    private static final String ipBroadCastLocal = obtenerBroadCastLocal();
     
     //FUENTE CC-BY --> http://fontstruct.com/fontstructions/show/pixel_unicode
-    private final String FONT_PIXEL = "/main/java/fonts/Pixel-UniCode.ttf";
+    private static final String FONT_PIXEL = "/main/java/fonts/Pixel-UniCode.ttf";
     
     /**
      * Constructor de Parametros. Dentro de él se instancia el mapa de imagenes
