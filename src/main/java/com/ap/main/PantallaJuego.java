@@ -181,7 +181,14 @@ public final class PantallaJuego extends javax.swing.JPanel {
      * </ul>
      */
     public boolean esCaminable(int posX, int posY, int incrX, int incrY){
-        int i1,j1,i2,j2,i3,j3,i4,j4;
+        int i1;
+        int j1;
+        int i2;
+        int j2;
+        int i3;
+        int j3;
+        int i4;
+        int j4;
         
         j1 = (posX+incrX)/32;
         i1 = (posY+incrY+32)/32;
